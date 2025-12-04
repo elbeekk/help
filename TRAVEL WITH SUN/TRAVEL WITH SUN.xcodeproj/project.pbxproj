@@ -10,6 +10,8 @@
 		E3A1B3412EE1DF61000F63DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1B33F2EE1DF61000F63DF /* ContentView.swift */; };
 		E3A1B3422EE1DF61000F63DF /* TRAVEL_WITH_SUNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1B3402EE1DF61000F63DF /* TRAVEL_WITH_SUNApp.swift */; };
 		E3A1B3432EE1DF61000F63DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A1B33E2EE1DF61000F63DF /* Assets.xcassets */; };
+		E3A1B3452EE1E043000F63DF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1B3442EE1E041000F63DF /* MapView.swift */; };
+		E3A1B3492EE1E3E2000F63DF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1B3482EE1E3DC000F63DF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +19,8 @@
 		E3A1B33E2EE1DF61000F63DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A1B33F2EE1DF61000F63DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3A1B3402EE1DF61000F63DF /* TRAVEL_WITH_SUNApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRAVEL_WITH_SUNApp.swift; sourceTree = "<group>"; };
+		E3A1B3442EE1E041000F63DF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E3A1B3482EE1E3DC000F63DF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 		86CF78A02EE1B32D00C4836F = {
 			isa = PBXGroup;
 			children = (
+				E3A1B3482EE1E3DC000F63DF /* Extensions.swift */,
+				E3A1B3442EE1E041000F63DF /* MapView.swift */,
 				E3A1B33E2EE1DF61000F63DF /* Assets.xcassets */,
 				E3A1B33F2EE1DF61000F63DF /* ContentView.swift */,
 				E3A1B3402EE1DF61000F63DF /* TRAVEL_WITH_SUNApp.swift */,
@@ -112,7 +118,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A1B3412EE1DF61000F63DF /* ContentView.swift in Sources */,
+				E3A1B3452EE1E043000F63DF /* MapView.swift in Sources */,
 				E3A1B3422EE1DF61000F63DF /* TRAVEL_WITH_SUNApp.swift in Sources */,
+				E3A1B3492EE1E3E2000F63DF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
